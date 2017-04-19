@@ -19,7 +19,7 @@ def gamemenu():
     elif main_menu_choice == "2":
         print("Feature in progress")
         game_load.load_game_settings()
-        print("I am a %r %r !!!\nMy level is %s and i am ready to start fighting!" % (config.hero_gender, config.hero_class, config.hero_base_level))
+        print("I am a %r %r !!!\nMy level is %s and i am ready to enter the arena!" % (config.hero_gender, config.hero_class, config.hero_base_level))
 
         print("Now to start the game")
     else:

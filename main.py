@@ -19,7 +19,7 @@ print firsttime
 '''
 
 
-arena()
+arena.arenafight()
 
 
 ''' keep window from exiting until a enter is pressed'''

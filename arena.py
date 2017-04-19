@@ -1,5 +1,5 @@
 import config
 
-def arena():
-    print("Welcome", + config.hero_class + "Arena has not started yet! Please be patient.")
-    return1
+def arenafight():
+    print("Welcome %s The Arena has not started yet! Please be patient." % (config.hero_class))
+    return
