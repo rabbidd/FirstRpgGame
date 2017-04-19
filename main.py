@@ -1,8 +1,8 @@
 import game_menu
-import config
+import arena
 
 
-print "Welcome to Hero Fight Club\n"
+print("Welcome to Hero Fight Club\n")
 
 
 game_menu.gamemenu()
@@ -19,9 +19,9 @@ print firsttime
 '''
 
 
-
+arena()
 
 
 ''' keep window from exiting until a enter is pressed'''
-print "Quiting game now!"
-raw_input()
+print("Quiting game now!")
+input()
