@@ -18,7 +18,9 @@ def gamemenu():
 
 
         if main_menu_choice == "1":
-            character_creation.create_character()
+            player1 = character_creation.Gladiator()
+            player1.create_character()
+
             "Now to start the game"
         elif main_menu_choice == "2":
             print("Feature in progress")
