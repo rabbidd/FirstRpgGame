@@ -2,7 +2,7 @@ import game_menu
 import arena
 
 
-print("Welcome to Hero Fight Club\n")
+print("Welcome to Hero Fight Arena\n")
 
 
 game_menu.gamemenu()
